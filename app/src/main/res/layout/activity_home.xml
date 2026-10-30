@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Development"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assignment 2 - Exercises"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/buttonPartA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Part A - Student Management"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/buttonPartB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Part B - Weather Explorer"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -45,6 +45,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.recyclerview)
     implementation("com.android.volley:volley:1.2.1")
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation("androidx.cardview:cardview:1.0.0")
 
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
